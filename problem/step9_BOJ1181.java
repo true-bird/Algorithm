@@ -1,5 +1,6 @@
 import java.io.*;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.LinkedList;
 
 /**
@@ -12,39 +13,31 @@ import java.util.LinkedList;
 public class step9_BOJ1181 {
 
     static int N;
-    static LinkedList<String>[] str;
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         N = Integer.parseInt(br.readLine());
         String[] list = new String[N];
-        str = new LinkedList[51];
-        for(int i=0;i<=50;i++) {
-            str[i] = new LinkedList<String>();
-        }
+
         for(int i=0;i<N;i++) {
             list[i]=br.readLine();
         }
-        Arrays.sort(list);
+        Arrays.sort(list, new Comparator<String>() {
+            @Override
+            public int compare(String o1, String o2) {
+                if(o1.length() != o2.length()) return o1.length() - o2.length(); // 길이 정렬
+                if(o1 != o2) return o1.compareTo(o2); // 문자 정렬
+                return 0;
+            }
+        });
 
-        for(String s :list) {
-            if(!str[s.length()].contains(s)) {
-                str[s.length()].add(s);
+        for(int i=0;i<list.length;i++) {
+            if(i+1 < list.length && list[i].equals(list[i+1])) {
+                continue;
             }
-        }
-        for(int i=1;i<=50;i++) {
-            if(str[i].size()==0) continue;
-            if(str[i].size()>1) {
-                for(String s : str[i]) {
-                    bw.write(s+"\n");
-                }
-            } else {
-                bw.write(str[i].poll()+"\n");
-            }
+            bw.write(list[i]+"\n");
         }
         bw.flush();
-
     }
-
-
 }
