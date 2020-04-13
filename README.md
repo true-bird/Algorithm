@@ -19,7 +19,7 @@
 <!-- Markdown link & img dfn's -->
 [tier-image]: https://img.shields.io/badge/Tier-Gold2-gold
 [게리맨더링2]: https://truebird.tech/algorithm/problems/boj17779
-[게리맨더링2]: https://truebird.tech/algorithm/problems/boj17822
+[원판돌리기]: https://truebird.tech/algorithm/problems/boj17822
 [새로운게임2]: https://truebird.tech/algorithm/problems/boj17837
 [스티커붙이기]: https://truebird.tech/algorithm/problems/boj18808
 [Gaaaaaaaaaarden]: https://truebird.tech/algorithm/problems/boj18809
