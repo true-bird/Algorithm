@@ -10,6 +10,7 @@
 - [BOJ18808][스티커붙이기]
 
 ## BFS / DFS
+- [BOJ17825][주사위윷놀이]
 - [BOJ18809][Gaaaaaaaaaarden]
 
 ## Dp
@@ -22,6 +23,7 @@
 [원판돌리기]: https://truebird.tech/algorithm/problems/boj17822
 [새로운게임2]: https://truebird.tech/algorithm/problems/boj17837
 [스티커붙이기]: https://truebird.tech/algorithm/problems/boj18808
+[주사위윷놀이]: https://truebird.tech/algorithm/problems/boj17825
 [Gaaaaaaaaaarden]: https://truebird.tech/algorithm/problems/boj18809
 [동전분배]: https://truebird.tech/algorithm/problems/boj1943
 [구간나누기]: https://truebird.tech/algorithm/problems/boj2228
