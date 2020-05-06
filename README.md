@@ -4,22 +4,22 @@
 ![Tier][tier-image]
 
 ## Brute force
-- [BOJ17779][게리맨더링2]
-- [BOJ17822][원판돌리기]
-- [BOJ17837][새로운게임2]
-- [BOJ18808][스티커붙이기]
+- [BOJ17779 게리맨더링2][게리맨더링2]
+- [BOJ17822 원판돌리기][원판돌리기]
+- [BOJ17837 새로운게임2][새로운게임2]
+- [BOJ18808 스티커붙이기][스티커붙이기]
 
 ## BFS / DFS
-- [BOJ10775][공항]
-- [BOJ17825][주사위윷놀이]
-- [BOJ18809][Gaaaaaaaaaarden]
+- [BOJ10775 공항][공항]
+- [BOJ17825 주사위윷놀이][주사위윷놀이]
+- [BOJ18809 Gaaaaaaaaaarden][Gaaaaaaaaaarden]
 
 ## Dp
-- [BOJ1943][동전분배]
-- [BOJ2228][구간나누기]
+- [BOJ1943 동전분배][동전분배]
+- [BOJ2228 구간나누기][구간나누기]
 
 ## String
-- [BOJ1786][찾기]
+- [BOJ1786 찾기][찾기]
 
 <!-- Markdown link & img dfn's -->
 [tier-image]: https://img.shields.io/badge/Tier-Gold2-gold
