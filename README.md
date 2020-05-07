@@ -36,4 +36,4 @@
 [동전분배]: https://truebird.tech/algorithm/problems/boj1943
 [구간나누기]: https://truebird.tech/algorithm/problems/boj2228
 [찾기]: https://www.acmicpc.net/problem/1786
-[친구네트워크]: https://www.acmicpc.net/problem/4195
+[친구네트워크]: https://truebird.tech/algorithm/problems/boj4195
