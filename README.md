@@ -21,6 +21,9 @@
 ## String
 - [BOJ1786 찾기][찾기]
 
+## Union Find
+- [BOJ4195 친구네트워크][친구네트워크]
+
 <!-- Markdown link & img dfn's -->
 [tier-image]: https://img.shields.io/badge/Tier-Gold2-gold
 [게리맨더링2]: https://truebird.tech/algorithm/problems/boj17779
@@ -33,3 +36,4 @@
 [동전분배]: https://truebird.tech/algorithm/problems/boj1943
 [구간나누기]: https://truebird.tech/algorithm/problems/boj2228
 [찾기]: https://www.acmicpc.net/problem/1786
+[친구네트워크]: https://www.acmicpc.net/problem/4195
